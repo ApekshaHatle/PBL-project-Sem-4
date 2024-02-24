@@ -1,0 +1,88 @@
+@import url('https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
+body {
+    background-color: #ddddef;
+    color: #141313;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+
+}
+#navbar{
+    height: 60px;
+    background-color:#180b5c;
+}
+
+button{
+    background-color:rgb(244, 54, 114);
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    color:#033f63;
+}
+div{
+    padding: 10px;
+}
+#logo{
+    color:rgb(244, 54, 114);
+    font-size: 50px;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+}
+
+a{
+    color: #f8efef;
+    font-size: 20px;
+    margin-right: 150px;
+    text-decoration: none;
+}
+
+.hidden{
+    opacity: 0;
+    filter:blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter:blur(0px);
+    transform: translateX(0);
+
+}
+
+.logos{
+    display: flex;
+}
+
+.logo:nth-child(1){
+    transition-delay: 200ms;
+}
+
+.logo:nth-child(2){
+    transition-delay: 400ms;
+}
+
+.logo:nth-child(3){
+    transition-delay: 600ms;
+}
+
+.logo:nth-child(4){
+    transition-delay: 800ms;
+}
+
+.logo {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 1rem;
+    margin:0 0.5rem;
+}
