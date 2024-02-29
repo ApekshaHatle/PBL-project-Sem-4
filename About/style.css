@@ -1,0 +1,312 @@
+
+.panel
+{
+    margin-top: -30px;
+    height: 100px;
+    background-color: rgb(39, 7, 71);
+}
+.para
+{
+    font-family: arial;
+    text-align: center;
+    position: relative;
+    left: 220px;
+    width: 1000px;
+    top: 50px;
+    font-size: 22px;
+}
+.title
+{
+    font-size: 40px;
+    padding-bottom:30px;
+    color: rgb(190, 14, 102);
+    padding-top: 20px;
+    font-family: arial;
+    margin-left: 60px;
+}
+
+.background
+{
+    margin-top: -20px;
+    background-color: rgb(219, 192, 206);
+    width: 100%;
+    height: 1500px;
+}
+.Contact,.about-title
+{
+    display: inline;
+    font-family: arial;
+    color:  rgb(39, 7, 71);
+    margin-top: 0px;
+    font-size: 50px;
+    position: absolute;
+    top:150px;
+    left: 600px;
+    position: relative;
+    top: 40px;
+}
+.Contact
+{
+    position: relative;
+    top: 70px;
+
+}
+.mobile
+{
+    position: relative;
+    top: 170px;
+    left: 200px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border:none;
+    border-radius: 20px;
+}
+.contacthead
+{
+    text-align: center;
+    padding-top: 10px;
+    font-family: arial;
+    font-size: 20px;
+}
+.details
+{
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 20px;
+    font-family: arial;
+}
+.type
+{
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.email
+{
+    position: absolute;
+    display:inline-block;
+    left: 400px;
+    top: 300px;
+    width: 650px;
+    height: 650px;
+}
+.logo
+{
+    margin-left: 45px;
+    width: 150px;
+    margin-top: 20px;
+    
+}
+.write
+{
+    font-size: 20px;
+    padding-left: 25px;
+}
+.button
+{
+    margin-left: 60px;
+    border: none;
+    background-color:rgb(39, 7, 71) ;
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 200px;
+    transition: color 1s;
+    transition: background-color 1s;
+
+}
+.mail-logo
+{
+    margin-bottom:0px ;
+}
+.button:hover
+{
+    background-color:rgb(190, 14, 102);
+    color: rgb(39, 7, 71);
+    cursor: pointer;
+}
+.button:active
+{
+    background-color: white;
+    color: black;
+}
+.board
+{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    left: 30px;
+    background-color: white;
+    top: 100px;
+    left: 150px;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.image-container
+{
+    position: relative;
+    display: inline;
+    height: 150px;
+}
+.image
+{
+    position: relative;
+    left: 90px;
+    margin: 0px;
+}
+.desc1
+{
+    display: inline;
+    font-family: arial;
+    font-size: 30px;
+    position: absolute;
+    left: 160px;
+    top: 120px;
+}
+.desc2
+{
+    display: inline;
+    font-family: arial;
+    font-size: 30px;
+    position: absolute;
+    left: 550px;
+    top: 130px;
+}
+.content1
+{
+    position: relative;
+    left: 100px;
+    top: -25px;
+    width: 250px;
+}
+.content2
+{
+    position: relative;
+    left: 100px;
+    top: 70px;
+    width: 250px;
+}
+.image2
+{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 110px;
+    top: 50px;
+    object-fit: cover;
+}
+.image3
+{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    position: absolute;
+    top: 50px;
+    left: 920px;
+}
+.content3
+{
+    position: relative;
+    top: 160px;
+    left: 90px;
+}
+.desc3
+{
+    margin-top: 0px;
+    display: inline;
+    position: relative;
+    top:150px;
+    left:120px ;
+    font-size:30px;
+    font-family: arial;
+}
+.content1,.content2,.content3
+{
+    font-size: 15px;
+    font-family: arial;
+}
+.social-media
+{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+    left: 610px;
+    top: 180px;
+}
+.sm
+{
+    position: relative;
+    top:30px;
+    left: 50px;
+    font-size: 25px;
+}
+.line1
+{
+    position: relative;
+    top: 25px;
+    display: grid;
+    height: 50px;
+    grid-template-columns: 60px 1fr;
+}
+.facebooklink
+{
+    position: relative;
+    left: 20px;
+}
+.logof
+{
+    position: relative;
+    left: 30px;
+    object-fit: cover;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.logoconatiner
+{
+    width: 50px;
+}
+.logoi
+{
+    position: relative;
+    position: relative;
+    left: 30px;
+    object-fit: cover;
+    top: 18px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.instagramlink
+{
+    position: relative;
+    display: inline;
+    top: -10px;
+    left: 80px;
+}
+.logox
+{
+    object-fit: cover;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+.add
+{
+    width: 350px;
+    text-align: center;
+    position: relative;
+    left: 560px;
+    top: 200px;
+}
