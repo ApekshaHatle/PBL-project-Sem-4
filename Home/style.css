@@ -16,7 +16,19 @@ section{
 }
 #navbar{
     height: 60px;
-    background-color:#180b5c;
+    background-color:#100641;
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index: 99;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
 }
 
 button{
@@ -31,8 +43,13 @@ div{
 }
 #logo{
     color:rgb(244, 54, 114);
-    font-size: 50px;
+    padding-left: 50px;
 }
+
+#logo img {
+    width: 100px; 
+    height: flex; 
+  }
 
 input{
     height: 30px;
@@ -58,6 +75,26 @@ a{
     filter:blur(0px);
     transform: translateX(0);
 
+}
+
+.bgImage {
+    background-image: url('C:\Users\Apeksha\Downloads\brooke-lark-HlNcigvUi4Q-unsplash.jpg');
+    background-size: cover; /* Adjusts the background image size to cover the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    position: relative; /* Ensures proper positioning of child elements */
+}
+
+.bgImage img {
+    top: 0;
+    width: 100%; /* Make the img element fill its container */
+}
+
+.bgImage h1,
+.bgImage p {
+    position: absolute; /* Position these elements relative to the .bgImage container */
+    transform: translate(-50%, -50%); /* Center the elements precisely */
+    z-index: 1; /* Ensure text is above the image */
 }
 
 .logos{
