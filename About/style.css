@@ -1,10 +1,42 @@
 
-.panel
-{
-    margin-top: -30px;
-    height: 100px;
-    background-color: rgb(39, 7, 71);
+#navbar {
+    height: 70px;
+    background-color: #100641;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
 }
+
+#logo {
+    color:rgb(244, 54, 114);
+    padding-left: 50px;
+}
+
+#logo img {
+    width: 100px; 
+}
+
+a {
+    color: #f8efef;
+    font-size: 20px;
+    margin-right: 150px;
+    text-decoration: none;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+}
+
+button {
+    background-color: rgb(244, 54, 114);
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    color: #033f63;
+}
+
 .para
 {
     font-family: arial;

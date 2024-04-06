@@ -23,13 +23,6 @@ section{
     z-index: 99;
 }
 
-video{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: fixed;
-    z-index: -1;
-}
 
 button{
     background-color:rgb(244, 54, 114);
@@ -48,7 +41,6 @@ div{
 
 #logo img {
     width: 100px; 
-    height: flex; 
   }
 
 input{
